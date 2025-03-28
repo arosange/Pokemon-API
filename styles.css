@@ -1,0 +1,100 @@
+body{
+    background: #1c1c1c;
+}
+
+#heading{
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1{
+    margin-top: 20px;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card{
+    height: 100%;
+    border: 10px solid #C0C0C0;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 520px;
+    width: 300px;
+    background: linear-gradient(135deg, #FFCC00, #FFD700, #FFA500);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 60px;
+}
+
+#card p{
+    font-size: 20px;
+}
+
+#card h2{ 
+    margin: 15px 0 15px 0;
+}
+
+
+
+#pokemon-img{
+    border: 5px solid rgb(207, 207, 207);
+    height: 200px;
+    text-align: center;
+    background-image: url(./assets/bosque.jpg);
+    background-size: cover;
+    
+}
+
+#pokeImg{
+    min-height: 200px;
+}
+
+#poke-wh{
+    background-color: rgb(207, 207, 207);
+    padding-bottom: 3px;
+    margin:0px;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 40px;
+    
+   
+}
+
+#poke-wh p{
+    margin: 0px;
+    text-align: center;
+    font-size: 16px;
+   }
+
+   #btn-card{
+    display: flex;
+    justify-content: center;
+   }
+
+#btn-again{
+    margin-top: 10px;
+    background-color: #0066CC; 
+    border: 3px solid #A0A0A0; 
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 12px; 
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      }
+      
+#btn-again:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  
+}
+
+strong{
+    padding-left: 10px;
+}
+
